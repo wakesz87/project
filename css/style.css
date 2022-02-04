@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 body{
   background-image: linear-gradient(to right, #DECBA4, #3E5151);
+  font-family: 'Rubik', sans-serif;
+  font-stretch: 50%;
+
+
 }
 
 #navbar-colour{

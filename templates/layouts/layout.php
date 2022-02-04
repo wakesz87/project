@@ -32,9 +32,28 @@
 
     <script type="text/javascript">
         $(document).ready(function() {
-            $("table").DataTable();
+         
+            showAllusers();
+
+            function showAllusers() {
+                $.ajax({
+                    url: "action.php",
+                    type: "POST",
+                    data: {
+                        action: "view"
+                    },
+                    succes: function(response) {
+                       // console.log(response);
+                       $("#showUser").html(response);
+                       $("table").DataTable();
+                    }
+                });
+            }
         });
     </script>
 
 </body>
+
 </html>
+
+//15:32

@@ -16,5 +16,14 @@
         <a class="nav-link" href="#">Contact</a>
       </li>
     </ul>
+    <hr>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="db\create\createdatabase.php" target="_blank">Adatbázis_létrehozása</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="db\create\createtable.php" target="_blank">Tábla_létrehozása</a>
+      </li>
+    </ul>
   </div>
 </nav>

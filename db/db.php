@@ -80,5 +80,4 @@ class Database
         return $t_rows;
     }
 }
-$ob = new Database();
-/*print_r($ob->read());*/
+
