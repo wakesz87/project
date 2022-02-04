@@ -19,7 +19,7 @@
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!--Css-->
     <link rel="stylesheet" href="./css/style.css">
-    <title>2MBEAUTY</title>
+    <title>#</title>
 </head>
 
 <body>
